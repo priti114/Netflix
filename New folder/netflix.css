@@ -1,0 +1,130 @@
+body{
+    background-image: url("t6.webp");
+    height: 60%;
+    width: 100%;
+    margin-right: 0%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    background-size: cover;
+    font-family: 'Mulish' , sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav .img img{
+    width: 17px;
+    margin-top: -18px;
+
+}
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+
+
+}
+.btn .eng{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+    
+}
+.btn .eng:hover{
+    background-color: 3px solid black;
+}
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+
+}
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    
+}
+
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 60px;
+}
+.main h3{
+    font-size: 34px;
+}
+.main p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 300px;
+    height: 48px;
+    border: none;
+    font-size: 25px;
+
+}
+.input button{
+    width:200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+.input button:hover{
+    background-color: red;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 300px;
+    padding: 66px;
+    border-top: 4px solid gray;
+}
+.first h1{
+    font-size: 60px;
+}
+.first p{
+    font-size: 30px;
+}
+.first img{
+    width: 50%
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 600px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 25px;
+    margin-left: 26%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 53px;
+    font-size: 26px;
+}
